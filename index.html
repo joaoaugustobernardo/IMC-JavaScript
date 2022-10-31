@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous"/>
+<link rel="stylesheet" href="estilo.css">
+		<title>Prova P1</title>
+	</head>
+	<body>
+		<div class='container'>
+			<h1>Formulário de Cadastro</h1>
+			<form action="" method="post" id='form-contato' name="validarj">
+				<div class="form-group">
+				  <label for="nome">Nome</label>
+				  <input type="text" class="form-control" id="nome" name="nome" placeholder="Infome o Nome">
+				  <span class='msg-erro msg-nome'></span>
+				</div>
+
+				<div class="form-group">
+					<label for="privilegio">Sexo: (masculino ou feminino) </label>
+					<input type="text" class="form-control" id="sexo" name="sexo" placeholder="Informe seu sexo">
+					<span class='msg-erro msg-sexo'></span>
+				  </div>
+
+				  <div class="form-group">
+					<label for="nome">Idade</label>
+					<input type="number" class="form-control" id="idade" name="idade" placeholder="Digite Sua Idade!">
+					<span class='msg-erro msg-idade'></span>
+				  </div>
+
+				
+
+				<div class="form-group">
+					<label for="nome">Altura</label>
+					<input type="number" class="form-control" id="altura" name="altura" placeholder="Digite Sua altura!">
+					<span class='msg-erro msg-altura'></span>
+				  </div>
+				
+				  <div class="form-group">
+					<label for="nome">Peso: (KG)</label>
+					<input type="number" class="form-control" id="peso" name="peso" placeholder="Digite o Peso!">
+					<span class='msg-erro msg-peso'></span>
+				  </div>
+
+				<button type="submit" class="btn btn-primary" id='calcular' onclick="return validar()">  
+					Calcular
+				</button>
+				
+				
+				
+				<div class="result" id="resultado"> LISTA DE REGISTRO IMC
+
+				</div>
+			</form>
+		</div>
+	<script type="text/javascript" src="javascript.js"></script>
+	</body>
+	</html>
+	

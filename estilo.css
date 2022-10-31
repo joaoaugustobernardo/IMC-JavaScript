@@ -1,0 +1,28 @@
+h1{
+text-align: center;
+}
+.msg-erro{
+    color: blue;
+}
+.row{
+    margin-left: 1px;
+}
+
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    
+    background: cornflowerblue;
+    color: rgb(0, 0, 8);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+  }
+body{
+    background-color:cornflowerblue;
+}
